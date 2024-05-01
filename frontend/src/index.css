@@ -1,0 +1,12 @@
+@import "primereact/resources/primereact.min.css";
+@import "primereact/resources/themes/lara-light-cyan/theme.css";
+@import "primeicons/primeicons.css";
+@import "primeflex/primeflex.min.css";
+@import "progressive-image.js/dist/progressive-image.css";
+.bg-overlay {
+  background-color: #050505b3;
+}
+
+.hover\:opacity-1:hover {
+  opacity: 1 !important;
+}

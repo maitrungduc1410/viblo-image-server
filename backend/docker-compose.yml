@@ -1,0 +1,7 @@
+services:
+  imgproxy:
+    image: darthsim/imgproxy
+    ports:
+      - 8081:8080
+    extra_hosts: # for Docker on Linux
+      - "host.docker.internal:host-gateway"
