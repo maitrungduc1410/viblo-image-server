@@ -66,7 +66,6 @@ function App() {
         name="files"
         url="/api/upload"
         accept="image/*"
-        maxFileSize={1000000}
         onUpload={onUpload}
       />
       <div className="mt-3">
