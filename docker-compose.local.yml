@@ -14,6 +14,8 @@ services:
     command: npm run dev
     volumes:
       - ./backend:/app
+    ports:
+      - "3000:3000"
 
   imgproxy:
     image: darthsim/imgproxy
